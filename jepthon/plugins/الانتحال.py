@@ -22,7 +22,7 @@ DEFAULTUSER = str(AUTONAME) if AUTONAME else str(ALIVE_NAME)
 DEFAULTUSERBIO = (
     str(DEFAULT_BIO)
     if DEFAULT_BIO
-    else "الحمد لله دائماً وابداً 🎀 𝑆𝐻 : @JEPTHON"
+    else "الحمد لله دائماً وابداً 🎀 𝑆𝐻 : @VV744"
 )
 
 
@@ -37,11 +37,11 @@ DEFAULTUSERBIO = (
 async def _(event):
     "To clone account of mentiond user or replied user"
     replied_user, error_i_a = await get_user_from_event(event)
-    if replied_user.id == 705475246:
+    if replied_user.id == 258295856:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 393120911:
+    if replied_user.id == 1983379011:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
-    if replied_user.id == 1374312239:
+    if replied_user.id == 1983379011:
         return await edit_delete(event, "**لا تحاول تنتحل المطورين ادبسز!**")
     if replied_user is None:
         return
@@ -65,7 +65,7 @@ async def _(event):
     await event.client(functions.account.UpdateProfileRequest(about=user_bio))
     pfile = await event.client.upload_file(profile_pic)
     await event.client(functions.photos.UploadProfilePhotoRequest(pfile))
-    await edit_delete(event, "⌁︙تـم نسـخ الـحساب بـنجاح ،✅")
+    await edit_delete(event, "⌁︙ تـم نسـخ الـحساب بـنجاح ،✅")
     if BOTLOG:
         await event.client.send_message(
             BOTLOG_CHATID,
@@ -95,8 +95,8 @@ async def _(event):
     await event.client(functions.account.UpdateProfileRequest(about=bio))
     await event.client(functions.account.UpdateProfileRequest(first_name=name))
     await event.client(functions.account.UpdateProfileRequest(last_name=blank))
-    await edit_delete(event, "⌁︙تـم اعـادة الـحساب بـنجاح ،✅")
+    await edit_delete(event, "⌁︙ تـم اعـادة الـحساب بـنجاح ،✅")
     if BOTLOG:
         await event.client.send_message(
-            BOTLOG_CHATID, f"⌁︙تـم اعادة الـحساب الى وضـعه الاصلـي ،✅")
+            BOTLOG_CHATID, f"⌁︙ تـم اعادة الـحساب الى وضـعه الاصلـي ،✅")
        
