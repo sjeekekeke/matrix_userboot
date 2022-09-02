@@ -22,7 +22,7 @@ async def _(event):
         except YouBlockedUserError:
             await event.edit("** اولا الغي حظر @SpamBot وحاول مجددا**")
             return
-        await event.edit(f"- {response.message.message}\n @jepthon")
+        await event.edit(f"- {response.message.message}\n @VV744")
 
 
 @jepiq.on(admin_cmd(pattern="الاغنية ?(.*)"))
@@ -98,7 +98,7 @@ async def _(event):
         return await edit_or_reply(
             event, "**╮ .دريس + اسم النادي + اسمك بلانجليزي + رقمك المفضل ... لتصميم دريس ...╰**"
         )
-    chat = "@Jepthon1BoT"
+    chat = "@VV7441BoT"
     catevent = await edit_or_reply(event, "**╮•⎚ اصبر جاي نخيط بدريسك ... 🧸🎈**")
     async with event.client.conversation(chat) as conv:
         try:
@@ -109,7 +109,7 @@ async def _(event):
             response = await response
             await event.client.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await catevent.edit("**╮•⎚ تحـقق من انـك لم تقـم بحظر البوت @Jepthon1BoT .. ثم اعـد استخدام الامـر ...🤖♥️**")
+            await catevent.edit("**╮•⎚ تحـقق من انـك لم تقـم بحظر البوت @VV7441BoT .. ثم اعـد استخدام الامـر ...🤖♥️**")
             return
         if response.text.startswith("I can't find that"):
             await catevent.edit("**╮•⎚ عـذراً .. لـم استطـع ايجـاد المطلـوب ☹️💔**")
@@ -156,24 +156,24 @@ async def _(event):
 async def jepvois(vois):
   rl = random.randint(3,267)
   url = f"https://t.me/DwDi1/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @JEPTHON 🎀",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744 🎀",parse_mode="html")
   await vois.delete()
 
 @jepiq.on(admin_cmd(outgoing=True, pattern="شعر$"))
 async def jepvois(vois):
   rl = random.randint(2,101)
   url = f"https://t.me/L1BBBL/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @JEPTHON 🎀",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744 🎀",parse_mode="html")
   await vois.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="قران$"))
 async def jepvois(vois):
   rl = random.randint(2,101)
   url = f"https://t.me/QuraanJep/{rl}"
-  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @JEPTHON 🤲🏻☪️",parse_mode="html")
+  await vois.client.send_file(vois.chat_id,url,caption="⌯︙BY : @VV744 🤲🏻☪️",parse_mode="html")
   await vois.delete()
 @jepiq.on(admin_cmd(outgoing=True, pattern="ثيم$"))
 async def jepThe(theme):
   rl = random.randint(2,510)
   url = f"https://t.me/GSSSD/{rl}"
-  await theme.client.send_file(theme.chat_id,url,caption="⌯︙THEME BY : @JEPTHON 🎊",parse_mode="html")
+  await theme.client.send_file(theme.chat_id,url,caption="⌯︙THEME BY : @VV744 🎊",parse_mode="html")
   await theme.delete()
