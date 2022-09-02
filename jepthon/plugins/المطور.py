@@ -45,13 +45,13 @@ async def amireallyalive(event):
         A_IMG = list(CAT)
         PIC = random.choice(A_IMG)
         cat_caption = f"مطورين ماتركس العرب\n"
-        cat_caption += f"ᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐ\n"
-        cat_caption += f"**[ - مبرمج السورس دار . ](t.me/ZBBBBB)**\n"
-        cat_caption += f"**[ - مبرمج السورس دراكون . ](t.me/s_l_3)**\n"
-        cat_caption += f"ᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐᚐᚒᚑᚐ\n"
+        cat_caption += f"✛━━━━━━━━━━━━━✛\n"
+        cat_caption += f"- المطور  : @Zbbbbb\n"
+        cat_caption += f"- المطور  : @s_l_3\n"
+        cat_caption += f"✛━━━━━━━━━━━━━✛\n"
         await event.client.send_file(
             event.chat_id, PIC, caption=cat_caption, reply_to=reply_to_id
-        )━
+        )
 
 @jepiq.tgbot.on(CallbackQuery(data=re.compile(b"stats")))
 async def on_plug_in_callback_query_handler(event):
