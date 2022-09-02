@@ -1,6 +1,6 @@
 # Copyright (C) 2021 JepThon TEAM
 # FILES WRITTEN BY  @lMl10l
-
+#wkerr
 import requests
 from validators.url import url
 
