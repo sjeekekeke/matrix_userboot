@@ -16,7 +16,7 @@ from .utils import (
     saves,
 )
 
-LOGS = logging.getLogger("JepThon")
+LOGS = logging.getLogger("Matrax")
 
 print(jepthon.__copyright__)
 print("Licensed under the terms of the " + jepthon.__license__)
@@ -49,10 +49,10 @@ async def startup_process():
     await load_plugins("plugins")
     await load_plugins("assistant")
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
-    print("⌯︙بـوت جـيبثون يعـمل بـنجاح ")
+    print("⌯︙بـوت ماتـركس يعـمل بـنجاح ")
     print(
         f"يجـب تفـعيل وضع الأنلايـن ثم أرسـل {cmdhr}فحص لـرؤيـة اذا كـان البوت شـغال\
-        \nللمسـاعدة تواصـل  https://t.me/JepthonSupport"
+        \nللمسـاعدة تواصـل  https://t.me/ZBBBBB"
     )
     print("➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖➖")
     await verifyLoggerGroup()
