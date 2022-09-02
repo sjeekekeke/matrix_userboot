@@ -17,7 +17,8 @@ async def dato(event):
         caption=f"""
 -تـم جـلب الصـورة بنجـاح ✅
 - CH: @VV744
-- Dev: @Zbbbbb
+- Dev : @Zbbbbb
+- coDer : @s_l_3 .
   """,
     )
     await event.edit(" 🥺♥ ")
