@@ -24,7 +24,7 @@ print("Licensed under the terms of the " + jepthon.__license__)
 cmdhr = Config.COMMAND_HAND_LER
 
 try:
-    LOGS.info("Starting jepthon")
+    LOGS.info("Starting Matrax")
     jepiq.loop.run_until_complete(setup_bot())
     LOGS.info("TG Bot Startup Completed")
 except Exception as e:
